@@ -1,0 +1,39 @@
+.header{
+  height: 150px;
+  background-color: black;
+}
+.header img{
+  height: 100%;
+}
+.title{
+  font-size: 36px;
+}
+.characters{
+  margin-left: 20px;
+}
+.charactersTop{
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+  max-width:300px;
+  gap: 10px;
+}
+.input{
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 24px;
+  padding: 4px;
+}
+.pagination{
+  display: flex;
+  margin-top: 20px;
+}
+.charactersList{
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.characters{
+  margin-bottom: 20px;
+}

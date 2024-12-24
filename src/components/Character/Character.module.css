@@ -1,0 +1,48 @@
+.character{
+    width: 600px;
+    display: flex;
+    background-color: rgb(61, 62, 67);
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.image{
+    height:300px;
+    border-radius: 50px;
+}
+.name{
+    font-size: 24px;
+}
+.status{
+
+}
+.info{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+.prop{
+    font-size: 20px;
+}
+.redCircle,.greenCircle{
+    position: relative;
+}
+.redCircle:after,.greenCircle:after{
+    content: '';
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translate(0,-50%);
+    bottom: 0;
+    width: 12px;
+    height: 12px;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 5;
+}
+.greenCircle:after{
+    background-color: green;
+}
